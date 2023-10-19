@@ -1,0 +1,88 @@
+/* Header.css */
+.navbar {
+  background-color: #0074d9;
+  border-bottom: 3px solid #0056b3;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar-brand .fi-align-justify {
+  font-size: 28px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.navbar-toggle {
+  border: 2px solid #fff;
+}
+
+/* Left-side elements (Inspect and Result) */
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushes left-side elements to the left */
+}
+
+.nav-link-inspect,
+.nav-link-result {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.nav-link-inspect:hover,
+.nav-link-result:hover {
+  color: #0056b3;
+}
+
+.nav-dropdown {
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-dropdown i {
+  margin-right: 8px;
+}
+
+/* Right-side elements (Username and Logout) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.fa-user {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.login-button {
+  color: #fff;
+  background-color: #0074d9;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button i {
+  margin-right: 8px;
+}
+
+.username-icon {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+}

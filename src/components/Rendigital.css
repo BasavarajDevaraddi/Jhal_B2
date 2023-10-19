@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+  }
+  
+  .table {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .cell {
+    font-weight: bold;
+    color: blue;
+    background-color: rgba(210, 208, 203, 0.547);
+  }
+  
+  .header-cell {
+    background-color: #a087a182;
+    color: white;
+    font-weight: bolder;
+    font-size: 1000px;
+  }
+  
+  .row {
+    background-color: #f0f0f0;
+  }
+  
